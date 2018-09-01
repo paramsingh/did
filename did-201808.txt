@@ -1,0 +1,102 @@
+Sun Aug  5 11:11:25 IST 2018
+- Reviewed MessyBrainz and AcousticBrainz PRs
+
+Sun Aug  5 12:56:55 IST 2018
+- Checked to see what tables are being dumped in AB
+- Started code to dump more tables (mostly dataset ones)
+
+Sun Aug  5 14:07:44 IST 2018
+- Completed code dumping all dataset tables
+- Merged AB PRs
+- Fixed the fasttest PR and merged it
+- Rebased stuff
+- Reviewed Rashi code
+
+Mon Aug  6 13:49:10 IST 2018
+- Application for NOC to college
+
+Mon Aug  6 15:37:33 IST 2018
+- New release of BrainzUtils with new Flask 1.0.2
+
+Mon Aug  6 17:39:33 IST 2018
+- Change the AB down page to pure HTML, no jinja
+- Read about nginx config to use try_files
+- Read about LB spark, thinking about problems
+- Weekly MetaBrainz meeting
+
+Tue Aug  7 10:54:18 IST 2018
+- US Visa Payment
+
+Tue Aug  7 11:08:20 IST 2018
+- Rashi PR merged
+- started an incremental dump on spike
+
+Fri Aug 8 2018
+- AB incremental dump investigation
+
+Fri Aug 9 01:05:21 IST 2018
+- Tried to find the best way to export and import AB data
+- Talked with rob about spark and ab dumps
+- Reviewed rashi's GSoC work product
+- Update resume
+
+Fri Aug 10 21:36:16 IST 2018
+- Begin blogpost.
+- Start AB dump again with intention to complete it this time.
+
+Fri Aug 10 22:52:27 IST 2018
+- Ask on spark chan
+
+Fri Aug 12 22:52:27 IST 2018
+- Stop ab dump and discuss with alastair
+
+Fri Aug 17 17:25:24 IST 2018
+- Rashi GSoC eval and code review
+- AB dumps start after cleaning up spike
+- don't create big files while creating dumps.
+
+Sat Aug 18 16:47:02 IST 2018
+- GSoC eval
+- don't create big files (https://github.com/metabrainz/acousticbrainz-server/pull/293)
+- 5 hrs
+
+Sun Aug 19 14:47:27 IST 2018
+- pushed docker images for spark master and worker to docker hub
+- started integrating these images into listenbrainz dev environment
+    getting errors with the spark worker right now, i'm not sure.
+- 5hr
+
+Mon Aug 20 14:24:25 IST 2018
+- Made a doc to send to KD for thesis purposes
+
+Wed Aug 22 14:14:55 IST 2018
+- created a dump with the small-files branch
+- spark stuff
+
+Wed Aug 22 16:55:34 IST 2018
+- alastairp discussion on what to do
+- more spark stuff -- started a master and worker
+
+Thu Aug 23 11:02:22 IST 2018
+- looking at how to start hdfs in the development env
+
+Thu Aug 23 13:22:53 IST 2018
+-- install hadoop into dockerfile and start hdfs
+-- acousticbrainz dump query change
+
+Tue Aug 28 01:34:19 IST 2018
+-- weekly meeting
+-- acousticbrainz pr
+-- cp dump to other servers
+-- fix bugs in production configs
+
+Tue Aug 28 18:34:19 IST 2018
+-- work on postgres-acousticbrainz configuration
+
+Wed Aug 29 18:34:19 IST 2018
+-- work on postgres-acousticbrainz configuration
+-- start an incremental dump import on frank
+-- fix AcousticBrainz PRs
+
+Thu Aug 30 18:34:19 IST 2018
+-- Apply for Spain Visa
